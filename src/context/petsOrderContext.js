@@ -10,7 +10,7 @@ const PetsOrderContext = React.createContext({
 
 export const PetsOrderContextProvider = (props) => {
     const [order, setOrder] = useState([]);
-
+    
     const [pets, setPets] = useState([]);
 
     const initializePets = (petsFromApi) => {

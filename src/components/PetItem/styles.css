@@ -15,19 +15,19 @@
     margin-bottom: 5px;
 }
 
-.pet-name{
+.pet-name {
     font-size: 1.3rem;
     padding: 5px;
     text-transform: uppercase;
 }
 
-.pet-breed{
-    font-weight: bold;
+.pet-breed {
+    font-weight:bold;
 }
 
 .pet-breed, .pet-age {
-    color:gray;
+    color: gray;
     padding: 5px;
     font-size: 0.9rem;
-    
+    text-transform: uppercase;
 }
