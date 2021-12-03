@@ -7,6 +7,7 @@ import { FaStore, FaShoppingCart} from 'react-icons/fa';
 import { logout } from "../Logout"
 
 import "./styles.css"
+import { NewPetPage } from "../pages/NewPetPage";
 export const Navbar = () => {
     return (
         <nav className="navbar">
@@ -19,6 +20,9 @@ export const Navbar = () => {
                 </li>
                 <li>
                     <Logout />
+                </li>
+                <li>
+                    <NewPetPage/>
                 </li>
             </ul>
         </nav>

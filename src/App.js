@@ -8,7 +8,8 @@ import { Navbar } from './components/Navbar';
 import { PetsHomePage } from './components/pages/PetsHomePage';
 import { ShoppingCartPage } from './components/pages/ShoppingCartPage';
 import { PetDetailsPage} from './components/pages/PetDetailsPage'; 
-import {LoginPage} from './components/pages/LoginPage'; 
+import {LoginPage} from './components/pages/LoginPage/index'; 
+import { NewPetPage } from './components/pages/NewPetPage/index';
 
 function App() {
   return (
@@ -25,7 +26,10 @@ function App() {
           <PetDetailsPage />
         </Route>
         <Route path="/login">
-          <LoginPage></LoginPage>
+          <LoginPage/>
+        </Route>
+        <Route path="/newPetPage">
+          <NewPetPage/>
         </Route>
       </Switch>
     </Router>
